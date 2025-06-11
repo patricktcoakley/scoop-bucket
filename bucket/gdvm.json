@@ -1,25 +1,25 @@
 {
-  "description": "A friendly Godot version manager.",
-  "license": "MIT",
-  "homepage": "https://github.com/patricktcoakley/gdvm",
-  "version": "0.1.7",
-  "bin": "gdvm.exe",
-  "architecture": {
-    "64bit": {
-      "url": "https://github.com/patricktcoakley/gdvm/releases/download/v0.1.7/gdvm-win-x64.zip",
-      "hash": "074025908e0960d32feefb3c136cc749961789503223996e472e062b1eea4079"
-    }
-  },
-  "checkver": {
-    "url": "https://api.github.com/repos/patricktcoakley/gdvm/releases/latest",
-    "regex": "\"tag_name\":\\s*\"v([\\d.]+)\""
-  },
-  "autoupdate": {
+    "description": "A friendly Godot version manager.",
+    "license": "MIT",
+    "homepage": "https://github.com/patricktcoakley/gdvm",
+    "version": "0.1.8",
+    "bin": "gdvm.exe",
     "architecture": {
-      "64bit": {
-        "url": "https://github.com/patricktcoakley/gdvm/releases/download/v$version/gdvm-win-x64.zip",
-        "hash": "$url.sha256"
-      }
+        "64bit": {
+            "url": "https://github.com/patricktcoakley/gdvm/releases/download/v0.1.8/gdvm-win-x64.zip",
+            "hash": "6ba98794682ab6977c3d66ea3a0d36172719fff9f59228cfe209f005566c37d7"
+        }
+    },
+    "checkver": {
+        "url": "https://api.github.com/repos/patricktcoakley/gdvm/releases/latest",
+        "regex": "\"tag_name\":\\s*\"v([\\d.]+)\""
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/patricktcoakley/gdvm/releases/download/v$version/gdvm-win-x64.zip",
+                "hash": "$url.sha256"
+            }
+        }
     }
-  }
 }

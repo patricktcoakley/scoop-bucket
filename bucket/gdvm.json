@@ -2,12 +2,12 @@
     "description": "A friendly Godot version manager.",
     "license": "MIT",
     "homepage": "https://github.com/patricktcoakley/gdvm",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "bin": "gdvm.exe",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/patricktcoakley/gdvm/releases/download/v1.0.0/gdvm-win-x64.zip",
-            "hash": "cdfe415b0469894d1bbd8428026b4fc1f31788d3e5ffd38e81d8d494c8631846"
+            "url": "https://github.com/patricktcoakley/gdvm/releases/download/v1.1.0/gdvm-win-x64.zip",
+            "hash": "d5cf7fe9a355a4cf386410a5e57020c3317f7a7a785d15613e29b16b1944d5be"
         }
     },
     "checkver": {

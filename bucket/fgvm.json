@@ -2,12 +2,12 @@
     "description": "A friendly Godot version manager.",
     "license": "MIT",
     "homepage": "https://github.com/patricktcoakley/fgvm",
-    "version": "2.5.0",
+    "version": "2.6.0",
     "bin": "fgvm.exe",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/patricktcoakley/fgvm/releases/download/v2.5.0/fgvm-win-x64.zip",
-            "hash": "7ce38fbd78619d8487a309b1297b52e27abb17c352e1a0d223f31850c7fdc1ac"
+            "url": "https://github.com/patricktcoakley/fgvm/releases/download/v2.6.0/fgvm-win-x64.zip",
+            "hash": "dd5b8878af62461aa6269ca960ddca08970e02df6d9a931c36bf7e18bf04c843"
         }
     },
     "checkver": {
